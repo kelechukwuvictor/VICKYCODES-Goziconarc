@@ -1,0 +1,226 @@
+.caro{
+    position: absolute;
+    top: 30%;
+}
+
+.carousel-item img{
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.roww{
+    text-align: center;
+}
+
+.h4{
+    color: black;
+}
+
+.h4:hover{
+    transform: scale(1.2);
+}
+.p{
+    font-style: italic;
+}
+.nav-item a{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    font-size: 17px;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+@media(max-width :600px){
+    .carousel-item img{
+        height: 60vh;
+    }
+    .img img{
+        width: 100%;
+        height: 50vh;
+    }
+    .navbar-brand a{
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+    .image{
+        /* position: absolute;
+        top: 50%; */
+        margin-top: 325%;
+        
+    }
+    .imgbox img{
+        height: 60vh;
+        width: 140%;
+    }
+    .imbox{
+        width: 300%;
+    }
+    .img h2{
+        font-size: 10px;
+    }
+    .dropdown{
+        position: absolute;
+        bottom: 50%;
+    }
+}
+
+.img h2{
+    font-size: 30px;
+    font-family: sans-serif; 
+    font-weight: 350;
+}
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-innerr .carousel-item.active,
+.carousel-innerr .carousel-item-next,
+.carousel-innerr .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-innerr .carousel-item-right.active,
+    .carousel-innerr .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-innerr .carousel-item-left.active, 
+    .carousel-innerr .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-innerr .carousel-item-right,
+.carousel-innerr .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+section
+{
+    padding: 30px 0 0;
+    
+}
+
+.box
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #000;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    transition: .5s;
+    margin-bottom: 35px;
+}
+
+.box:hover
+{
+    transform: translateY(-30px);
+    box-shadow: 0 50px 50x rgba(0,0,0,.5);
+}
+
+.box .imgbox
+{
+    position: relative;
+}
+
+.box .imgbox img
+{
+    transition: .5s;
+}
+
+.box:hover .imgbox img
+{
+   opacity: .5;
+    transform: translateY(-40px);
+}
+
+.box .content
+{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+    opacity: 0;
+    
+}
+
+.box:hover .content
+{
+    opacity: 1;
+    bottom: 0;
+}
+
+.box .content h3
+{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.box .content p
+{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.box .content .btnD
+{
+    border: none;
+    background: #ff0000;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.box .content .btnD:hover
+{
+    background: #ff3232;
+    
+}
+
+.image{
+    /* display: flex; */
+    /* overflow-x: scroll;
+    gap: 1rem; */
+    position: relative;
+    bottom: 50%;
+   margin-top: 0%;
+    /* margin-bottom: 60%; */
+    /* top: 100%; */
+    width: 102%;
+}
+
